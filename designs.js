@@ -1,4 +1,4 @@
-
+$(function(){
 let cells = $(".cells");
 
 function makeGrid(column,row) {
@@ -41,4 +41,5 @@ $("#sizePicker").submit(function(event){        //saving the input values by the
     });
     
     event.preventDefault();//prevention of default submission of web page
+});
 });
